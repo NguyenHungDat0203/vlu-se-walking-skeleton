@@ -1,6 +1,6 @@
 function login(user, pass) {
     if (user === "admin" && pass === "123") {
-        return false;
+    return true;
     }
 // Hỗ trợ chạy trên trình duyệt
 if (typeof window !== "undefined") {
