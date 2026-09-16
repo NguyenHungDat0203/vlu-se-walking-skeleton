@@ -1,7 +1,7 @@
-function checkLogin(user, pass) {
-  return user === "admin" && pass === "123";
-}
-
+function login(user, pass) {
+    if (user === "admin" && pass === "123") {
+        return false;
+    }
 // Hỗ trợ chạy trên trình duyệt
 if (typeof window !== "undefined") {
   window.checkLogin = checkLogin;
